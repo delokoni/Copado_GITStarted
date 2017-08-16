@@ -126,6 +126,18 @@
         <fullName>NextStep</fullName>
     </fields>
     <fields>
+        <fullName>OPP_EUID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>OPP_EUID</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>OPP_Test_Permission__c</fullName>
         <externalId>false</externalId>
         <label>OPP Test Permission</label>
