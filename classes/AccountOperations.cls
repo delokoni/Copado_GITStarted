@@ -6,7 +6,8 @@ public class AccountOperations {
     }
     
         public static Boolean isTest(){
-        return true;
+        Boolean resultValue = true;
+        return resultValue;
     }
  
 }
