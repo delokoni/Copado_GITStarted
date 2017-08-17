@@ -11,4 +11,13 @@ public class AccountOperationsTest {
         System.assertEquals('Default Description', savedAcc.Description);
     	//again, just for changes
     }
+    
+    @isTest 
+    static void testGetBoolean(){
+        Test.startTest();
+        Boolean testVar = AccountOperations.isTest();
+        Test.stopTest();
+        
+        System.assertEquals(true, testVar);
+    }
 }
