@@ -1,8 +1,9 @@
 @isTest
 public class DummyClassTest {
-    public static void testGetTest(){
+    
+    public static testmethod void testGetTest(){
         Test.startTest();
-        String myTest = DummyClass.thisText;
+        String myTest = DummyClass.getText();
         Test.stopTest();
         
         System.assertEquals(DummyClass.thisText, myTest);
