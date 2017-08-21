@@ -158,6 +158,14 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Is_Deployed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Deployed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Jigsaw</fullName>
     </fields>
     <fields>
