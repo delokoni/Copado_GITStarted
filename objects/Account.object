@@ -146,7 +146,6 @@
         <label>EUID</label>
         <length>200</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>true</unique>
     </fields>
@@ -162,7 +161,6 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Is Deployed</label>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -314,6 +312,13 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>VIP_Customer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>VIP Customer</label>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Website</fullName>
