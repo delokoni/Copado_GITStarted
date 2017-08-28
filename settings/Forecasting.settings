@@ -238,6 +238,14 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000MHzd2</field>
+            <label>OPP_EUID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000MHzUF</field>
+            <label>OPP Test Permission</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Mma1K</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -282,6 +290,8 @@
             <field>00N0Y00000Mma1H</field>
             <field>00N0Y00000Mma1I</field>
             <field>00N0Y00000Mma1J</field>
+            <field>00N0Y00000MHzd2</field>
+            <field>00N0Y00000MHzUF</field>
             <field>00N0Y00000Mma1K</field>
             <field>00N0Y00000Mma1L</field>
         </opportunityListFieldsUnselectedSettings>
@@ -450,6 +460,14 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000MHzd2</field>
+            <label>OPP_EUID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000MHzUF</field>
+            <label>OPP Test Permission</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Mma1K</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -494,6 +512,8 @@
             <field>00N0Y00000Mma1H</field>
             <field>00N0Y00000Mma1I</field>
             <field>00N0Y00000Mma1J</field>
+            <field>00N0Y00000MHzd2</field>
+            <field>00N0Y00000MHzUF</field>
             <field>00N0Y00000Mma1K</field>
             <field>00N0Y00000Mma1L</field>
         </opportunityListFieldsUnselectedSettings>
@@ -662,6 +682,14 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000MHzd2</field>
+            <label>OPP_EUID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000MHzUF</field>
+            <label>OPP Test Permission</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Mma1K</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -706,6 +734,8 @@
             <field>00N0Y00000Mma1H</field>
             <field>00N0Y00000Mma1I</field>
             <field>00N0Y00000Mma1J</field>
+            <field>00N0Y00000MHzd2</field>
+            <field>00N0Y00000MHzUF</field>
             <field>00N0Y00000Mma1K</field>
             <field>00N0Y00000Mma1L</field>
         </opportunityListFieldsUnselectedSettings>
@@ -874,6 +904,14 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000MHzd2</field>
+            <label>OPP_EUID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000MHzUF</field>
+            <label>OPP Test Permission</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Mma1K</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -918,6 +956,8 @@
             <field>00N0Y00000Mma1H</field>
             <field>00N0Y00000Mma1I</field>
             <field>00N0Y00000Mma1J</field>
+            <field>00N0Y00000MHzd2</field>
+            <field>00N0Y00000MHzUF</field>
             <field>00N0Y00000Mma1K</field>
             <field>00N0Y00000Mma1L</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1094,6 +1134,14 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000MHzd2</field>
+            <label>OPP_EUID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000MHzUF</field>
+            <label>OPP Test Permission</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Mma1K</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -1140,6 +1188,8 @@
             <field>00N0Y00000Mma1H</field>
             <field>00N0Y00000Mma1I</field>
             <field>00N0Y00000Mma1J</field>
+            <field>00N0Y00000MHzd2</field>
+            <field>00N0Y00000MHzUF</field>
             <field>00N0Y00000Mma1K</field>
             <field>00N0Y00000Mma1L</field>
         </opportunityListFieldsUnselectedSettings>
