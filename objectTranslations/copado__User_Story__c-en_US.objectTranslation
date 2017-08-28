@@ -599,4 +599,12 @@
         <label><!-- Mass_Add_User_Stories_Sprint --></label>
         <name>copado__Mass_Add_User_Stories_Sprint</name>
     </webLinks>
+    <webLinks>
+        <label><!-- Run_Static_Code_Analysis --></label>
+        <name>copado__Run_Static_Code_Analysis</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Static_Code_Analysis_Summary --></label>
+        <name>copado__Static_Code_Analysis_Summary</name>
+    </webLinks>
 </CustomObjectTranslation>
