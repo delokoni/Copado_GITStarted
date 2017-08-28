@@ -173,6 +173,7 @@
         <required>false</required>
         <type>Picklist</type>
         <valueSet>
+            <controllingField>Controlling_Field__c</controllingField>
             <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
@@ -237,6 +238,54 @@
                     <label>D43</label>
                 </value>
             </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Value 1</controllingFieldValue>
+                <valueName>D11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 1</controllingFieldValue>
+                <valueName>D12</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 1</controllingFieldValue>
+                <valueName>D13</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 2</controllingFieldValue>
+                <valueName>D21</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 2</controllingFieldValue>
+                <valueName>D22</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 2</controllingFieldValue>
+                <valueName>D23</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 3</controllingFieldValue>
+                <valueName>D31</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 3</controllingFieldValue>
+                <valueName>D32</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 3</controllingFieldValue>
+                <valueName>D33</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 4</controllingFieldValue>
+                <valueName>D41</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 4</controllingFieldValue>
+                <valueName>D42</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 4</controllingFieldValue>
+                <valueName>D43</valueName>
+            </valueSettings>
         </valueSet>
     </fields>
     <fields>
