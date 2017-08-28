@@ -132,6 +132,101 @@
                     <default>false</default>
                     <label>Value 4</label>
                 </value>
+                <value>
+                    <fullName>Value (</fullName>
+                    <default>false</default>
+                    <label>Value (</label>
+                </value>
+                <value>
+                    <fullName>Valuie )</fullName>
+                    <default>false</default>
+                    <label>Valuie )</label>
+                </value>
+                <value>
+                    <fullName>Value -</fullName>
+                    <default>false</default>
+                    <label>Value -</label>
+                </value>
+                <value>
+                    <fullName>Value _</fullName>
+                    <default>false</default>
+                    <label>Value _</label>
+                </value>
+                <value>
+                    <fullName>Value /</fullName>
+                    <default>false</default>
+                    <label>Value /</label>
+                </value>
+                <value>
+                    <fullName>Value ,</fullName>
+                    <default>false</default>
+                    <label>Value ,</label>
+                </value>
+                <value>
+                    <fullName>Value .</fullName>
+                    <default>false</default>
+                    <label>Value .</label>
+                </value>
+                <value>
+                    <fullName>Value ;</fullName>
+                    <default>false</default>
+                    <label>Value ;</label>
+                </value>
+                <value>
+                    <fullName>Value :</fullName>
+                    <default>false</default>
+                    <label>Value :</label>
+                </value>
+                <value>
+                    <fullName>Value &quot;</fullName>
+                    <default>false</default>
+                    <label>Value &quot;</label>
+                </value>
+                <value>
+                    <fullName>Value *</fullName>
+                    <default>false</default>
+                    <label>Value *</label>
+                </value>
+                <value>
+                    <fullName>Value +</fullName>
+                    <default>false</default>
+                    <label>Value +</label>
+                </value>
+                <value>
+                    <fullName>Value ô</fullName>
+                    <default>false</default>
+                    <label>Value ô</label>
+                </value>
+                <value>
+                    <fullName>Value ç</fullName>
+                    <default>false</default>
+                    <label>Value ç</label>
+                </value>
+                <value>
+                    <fullName>Value ü</fullName>
+                    <default>false</default>
+                    <label>Value ü</label>
+                </value>
+                <value>
+                    <fullName>Value @</fullName>
+                    <default>false</default>
+                    <label>Value @</label>
+                </value>
+                <value>
+                    <fullName>Value á</fullName>
+                    <default>false</default>
+                    <label>Value á</label>
+                </value>
+                <value>
+                    <fullName>Value à</fullName>
+                    <default>false</default>
+                    <label>Value à</label>
+                </value>
+                <value>
+                    <fullName>value ñ</fullName>
+                    <default>false</default>
+                    <label>value ñ</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -242,7 +337,146 @@
                     <default>false</default>
                     <label>D51</label>
                 </value>
+                <value>
+                    <fullName>Value (</fullName>
+                    <default>false</default>
+                    <label>Value (</label>
+                </value>
+                <value>
+                    <fullName>Valuie )</fullName>
+                    <default>false</default>
+                    <label>Valuie )</label>
+                </value>
+                <value>
+                    <fullName>Value -</fullName>
+                    <default>false</default>
+                    <label>Value -</label>
+                </value>
+                <value>
+                    <fullName>Value _</fullName>
+                    <default>false</default>
+                    <label>Value _</label>
+                </value>
+                <value>
+                    <fullName>Value /</fullName>
+                    <default>false</default>
+                    <label>Value /</label>
+                </value>
+                <value>
+                    <fullName>Value ,</fullName>
+                    <default>false</default>
+                    <label>Value ,</label>
+                </value>
+                <value>
+                    <fullName>Value .</fullName>
+                    <default>false</default>
+                    <label>Value .</label>
+                </value>
+                <value>
+                    <fullName>Value ;</fullName>
+                    <default>false</default>
+                    <label>Value ;</label>
+                </value>
+                <value>
+                    <fullName>Value :</fullName>
+                    <default>false</default>
+                    <label>Value :</label>
+                </value>
+                <value>
+                    <fullName>Value &quot;</fullName>
+                    <default>false</default>
+                    <label>Value &quot;</label>
+                </value>
+                <value>
+                    <fullName>Value *</fullName>
+                    <default>false</default>
+                    <label>Value *</label>
+                </value>
+                <value>
+                    <fullName>Value +</fullName>
+                    <default>false</default>
+                    <label>Value +</label>
+                </value>
+                <value>
+                    <fullName>Value ô</fullName>
+                    <default>false</default>
+                    <label>Value ô</label>
+                </value>
+                <value>
+                    <fullName>Value ç</fullName>
+                    <default>false</default>
+                    <label>Value ç</label>
+                </value>
+                <value>
+                    <fullName>Value ü</fullName>
+                    <default>false</default>
+                    <label>Value ü</label>
+                </value>
+                <value>
+                    <fullName>Value @</fullName>
+                    <default>false</default>
+                    <label>Value @</label>
+                </value>
+                <value>
+                    <fullName>Value á</fullName>
+                    <default>false</default>
+                    <label>Value á</label>
+                </value>
+                <value>
+                    <fullName>Value à</fullName>
+                    <default>false</default>
+                    <label>Value à</label>
+                </value>
+                <value>
+                    <fullName>value ñ</fullName>
+                    <default>false</default>
+                    <label>value ñ</label>
+                </value>
             </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Value .</controllingFieldValue>
+                <valueName>Value .</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value à</controllingFieldValue>
+                <valueName>Value à</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value ;</controllingFieldValue>
+                <valueName>Value ;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>value ñ</controllingFieldValue>
+                <valueName>value ñ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value :</controllingFieldValue>
+                <valueName>Value :</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value &quot;</controllingFieldValue>
+                <valueName>Value &quot;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value *</controllingFieldValue>
+                <valueName>Value *</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value +</controllingFieldValue>
+                <valueName>Value +</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value ô</controllingFieldValue>
+                <valueName>Value ô</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value ç</controllingFieldValue>
+                <valueName>Value ç</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value ü</controllingFieldValue>
+                <valueName>Value ü</valueName>
+            </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Value 1</controllingFieldValue>
                 <valueName>D11</valueName>
@@ -295,6 +529,38 @@
             <valueSettings>
                 <controllingFieldValue>Value 4</controllingFieldValue>
                 <valueName>D43</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value (</controllingFieldValue>
+                <valueName>Value (</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Valuie )</controllingFieldValue>
+                <valueName>Valuie )</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value -</controllingFieldValue>
+                <valueName>Value -</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value _</controllingFieldValue>
+                <valueName>Value _</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value /</controllingFieldValue>
+                <valueName>Value /</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value @</controllingFieldValue>
+                <valueName>Value @</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value ,</controllingFieldValue>
+                <valueName>Value ,</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value á</controllingFieldValue>
+                <valueName>Value á</valueName>
             </valueSettings>
         </valueSet>
     </fields>
