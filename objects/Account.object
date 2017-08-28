@@ -69,11 +69,9 @@
     <enableHistory>false</enableHistory>
     <fields>
         <fullName>AccountNumber</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>AccountSource</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -81,7 +79,6 @@
         <externalId>false</externalId>
         <label>Active</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -101,18 +98,48 @@
     </fields>
     <fields>
         <fullName>AnnualRevenue</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>BillingAddress</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Controlling_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Controlling Field</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Value 1</fullName>
+                    <default>false</default>
+                    <label>Value 1</label>
+                </value>
+                <value>
+                    <fullName>Value 2</fullName>
+                    <default>false</default>
+                    <label>Value 2</label>
+                </value>
+                <value>
+                    <fullName>Value 3</fullName>
+                    <default>false</default>
+                    <label>Value 3</label>
+                </value>
+                <value>
+                    <fullName>Value 4</fullName>
+                    <default>false</default>
+                    <label>Value 4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>CustomerPriority__c</fullName>
         <externalId>false</externalId>
         <label>Customer Priority</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -137,16 +164,86 @@
     </fields>
     <fields>
         <fullName>DandbCompanyId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Depending_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Depending Field</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>D11</fullName>
+                    <default>false</default>
+                    <label>D11</label>
+                </value>
+                <value>
+                    <fullName>D12</fullName>
+                    <default>false</default>
+                    <label>D12</label>
+                </value>
+                <value>
+                    <fullName>D13</fullName>
+                    <default>false</default>
+                    <label>D13</label>
+                </value>
+                <value>
+                    <fullName>D21</fullName>
+                    <default>false</default>
+                    <label>D21</label>
+                </value>
+                <value>
+                    <fullName>D22</fullName>
+                    <default>false</default>
+                    <label>D22</label>
+                </value>
+                <value>
+                    <fullName>D23</fullName>
+                    <default>false</default>
+                    <label>D23</label>
+                </value>
+                <value>
+                    <fullName>D31</fullName>
+                    <default>false</default>
+                    <label>D31</label>
+                </value>
+                <value>
+                    <fullName>D32</fullName>
+                    <default>false</default>
+                    <label>D32</label>
+                </value>
+                <value>
+                    <fullName>D33</fullName>
+                    <default>false</default>
+                    <label>D33</label>
+                </value>
+                <value>
+                    <fullName>D41</fullName>
+                    <default>false</default>
+                    <label>D41</label>
+                </value>
+                <value>
+                    <fullName>D42</fullName>
+                    <default>false</default>
+                    <label>D42</label>
+                </value>
+                <value>
+                    <fullName>D43</fullName>
+                    <default>false</default>
+                    <label>D43</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>DunsNumber</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>EUID__c</fullName>
@@ -155,17 +252,14 @@
         <label>EUID</label>
         <length>200</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>true</unique>
     </fields>
     <fields>
         <fullName>Fax</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Industry</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -173,28 +267,22 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Is Deployed</label>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Jigsaw</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>NaicsCode</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>NaicsDesc</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
         <fullName>NumberOfEmployees</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>NumberofLocations__c</fullName>
@@ -203,32 +291,26 @@
         <precision>3</precision>
         <required>false</required>
         <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Number</type>
         <unique>false</unique>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Ownership</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>ParentId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Hierarchy</type>
     </fields>
     <fields>
         <fullName>Phone</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Rating</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -236,7 +318,6 @@
         <externalId>false</externalId>
         <label>SLA Expiration Date</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Date</type>
     </fields>
     <fields>
@@ -245,7 +326,6 @@
         <label>SLA Serial Number</label>
         <length>10</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -254,7 +334,6 @@
         <externalId>false</externalId>
         <label>SLA</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -284,19 +363,15 @@
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Sic</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>SicDesc</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Site</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>TestPermission__c</fullName>
@@ -304,21 +379,17 @@
         <label>TestPermission</label>
         <length>39</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
         <fullName>TickerSymbol</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Tradestyle</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Type</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -326,7 +397,6 @@
         <externalId>false</externalId>
         <label>Upsell Opportunity</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -351,11 +421,9 @@
     </fields>
     <fields>
         <fullName>Website</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>YearStarted</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
