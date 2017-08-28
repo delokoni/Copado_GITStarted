@@ -237,6 +237,11 @@
                     <default>false</default>
                     <label>D43</label>
                 </value>
+                <value>
+                    <fullName>D51</fullName>
+                    <default>false</default>
+                    <label>D51</label>
+                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Value 1</controllingFieldValue>
@@ -251,16 +256,21 @@
                 <valueName>D13</valueName>
             </valueSettings>
             <valueSettings>
+                <controllingFieldValue>Value 1</controllingFieldValue>
                 <controllingFieldValue>Value 2</controllingFieldValue>
                 <valueName>D21</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>Value 2</controllingFieldValue>
+                <controllingFieldValue>Value 1</controllingFieldValue>
                 <valueName>D22</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>Value 2</controllingFieldValue>
+                <controllingFieldValue>Value 1</controllingFieldValue>
                 <valueName>D23</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 2</controllingFieldValue>
+                <valueName>D51</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Value 3</controllingFieldValue>
