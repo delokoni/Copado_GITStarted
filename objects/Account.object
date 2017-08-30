@@ -97,6 +97,13 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>AdminOnlyDev1__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>AdminOnlyDev1</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>AnnualRevenue</fullName>
     </fields>
     <fields>
