@@ -642,6 +642,22 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>PRJ1_IsProject1A__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Project 1 A</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PRJ2_IsProject2A__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Project 2 A</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>ParentId</fullName>
         <type>Hierarchy</type>
     </fields>
@@ -757,6 +773,13 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>VIP_Customer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>VIP Customer</label>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Website</fullName>
