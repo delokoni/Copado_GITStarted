@@ -642,6 +642,14 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>PRJ2_IsProject2A__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Project 2 A</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>ParentId</fullName>
         <type>Hierarchy</type>
     </fields>
