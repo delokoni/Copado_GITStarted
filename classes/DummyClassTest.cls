@@ -6,6 +6,6 @@ public class DummyClassTest {
         String myTest = DummyClass.getText();
         Test.stopTest();
         
-        System.assertEquals(DummyClass.thisTextIs, myTest);
+        System.assertEquals(DummyClass.thisTextWas, myTest);
     }
 }

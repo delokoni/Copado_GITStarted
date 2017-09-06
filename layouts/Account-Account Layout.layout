@@ -45,15 +45,19 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>VIP_Customer__c</field>
+                <field>Controlling_Field__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>AdminOnlyDev1__c</field>
+                <field>Depending_Field__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>PRJ1_IsProject1A__c</field>
+                <field>AdminOnlyDev2__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>PRJ2_IsProject2A__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
