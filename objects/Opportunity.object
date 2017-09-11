@@ -193,6 +193,36 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Picklist_Replacement__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist Replacement</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Closed %E2%80%93 Admin</fullName>
+                    <default>false</default>
+                    <label>Closed %E2%80%93 Admin</label>
+                </value>
+                <value>
+                    <fullName>Some - more - values</fullName>
+                    <default>false</default>
+                    <label>Some - more - values</label>
+                </value>
+                <value>
+                    <fullName>Dev + Admin</fullName>
+                    <default>false</default>
+                    <label>Dev + Admin</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Pricebook2Id</fullName>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
