@@ -650,6 +650,14 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>PRJ1_IsProject1B__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Project 1 B</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>PRJ2_IsProject2A__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
