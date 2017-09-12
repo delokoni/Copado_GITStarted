@@ -646,7 +646,6 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Is Project 1 A</label>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -654,7 +653,6 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Is Project 1 B</label>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -662,7 +660,6 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Is Project 2 A</label>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -670,7 +667,6 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Is Project 2 B</label>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -743,6 +739,34 @@
     </fields>
     <fields>
         <fullName>Site</fullName>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>false</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Duplicate</fullName>
+                    <default>false</default>
+                    <label>Duplicate</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>TestPermission__c</fullName>
