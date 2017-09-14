@@ -47,6 +47,7 @@
     <description>Agile form of requirements gathering</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
@@ -1566,11 +1567,10 @@
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>copado__User_Story_Title__c</columns>
-        <columns>copado__userStory_Role__c</columns>
-        <columns>copado__userStory_need__c</columns>
-        <columns>copado__userStory_reason__c</columns>
         <columns>copado__Story_Points_SFDC__c</columns>
         <columns>copado__Story_Points_Other__c</columns>
+        <columns>copado__Environment__c</columns>
+        <columns>copado__Promote_Change__c</columns>
         <columns>copado__Status__c</columns>
         <columns>copado__Project__c</columns>
         <columns>copado__Epic__c</columns>

@@ -250,6 +250,10 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000ODLRK</field>
+            <label>Picklist Replacement</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Mma1L</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
@@ -293,6 +297,7 @@
             <field>00N0Y00000MHzd2</field>
             <field>00N0Y00000MHzUF</field>
             <field>00N0Y00000Mma1K</field>
+            <field>00N0Y00000ODLRK</field>
             <field>00N0Y00000Mma1L</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
@@ -472,6 +477,10 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000ODLRK</field>
+            <label>Picklist Replacement</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Mma1L</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
@@ -515,6 +524,7 @@
             <field>00N0Y00000MHzd2</field>
             <field>00N0Y00000MHzUF</field>
             <field>00N0Y00000Mma1K</field>
+            <field>00N0Y00000ODLRK</field>
             <field>00N0Y00000Mma1L</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
@@ -694,6 +704,10 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000ODLRK</field>
+            <label>Picklist Replacement</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Mma1L</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
@@ -737,6 +751,7 @@
             <field>00N0Y00000MHzd2</field>
             <field>00N0Y00000MHzUF</field>
             <field>00N0Y00000Mma1K</field>
+            <field>00N0Y00000ODLRK</field>
             <field>00N0Y00000Mma1L</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
@@ -916,6 +931,10 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000ODLRK</field>
+            <label>Picklist Replacement</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Mma1L</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
@@ -959,6 +978,7 @@
             <field>00N0Y00000MHzd2</field>
             <field>00N0Y00000MHzUF</field>
             <field>00N0Y00000Mma1K</field>
+            <field>00N0Y00000ODLRK</field>
             <field>00N0Y00000Mma1L</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
@@ -1146,6 +1166,10 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000ODLRK</field>
+            <label>Picklist Replacement</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Mma1L</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
@@ -1191,6 +1215,7 @@
             <field>00N0Y00000MHzd2</field>
             <field>00N0Y00000MHzUF</field>
             <field>00N0Y00000Mma1K</field>
+            <field>00N0Y00000ODLRK</field>
             <field>00N0Y00000Mma1L</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
