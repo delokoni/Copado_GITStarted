@@ -116,21 +116,6 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>test_yml_merge_1</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>test_yml_merge_2</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>test_yml_merge_3</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>test_yml_4</application>
         <default>false</default>
         <visible>false</visible>
@@ -142,6 +127,21 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>test_yml_6</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>test_yml_merge_1</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>test_yml_merge_2</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>test_yml_merge_3</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -2208,6 +2208,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.OrderNumber__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.PRJ1_Project_1_Test_2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.PRJ2_Project_2_Test_2__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
