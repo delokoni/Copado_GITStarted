@@ -665,6 +665,15 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>PRJ2_Project_2_Test_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Project 2 Test 1</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ParentId</fullName>
         <type>Hierarchy</type>
     </fields>
