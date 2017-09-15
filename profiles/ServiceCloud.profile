@@ -6388,7 +6388,6 @@
         <tab>standard-report</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    <userLicense>Service Cloud</userLicense>
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivateContract</name>
