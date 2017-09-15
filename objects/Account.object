@@ -681,6 +681,15 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>PRJ1_Project1Test1__c</fullName>
+        <externalId>false</externalId>
+        <label>Project 1 Test 1</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>PRJ2_IsProject2A__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
