@@ -158,10 +158,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>PRJ1_Project_1_Test_3__c</fullName>
+        <fullName>PRJ2_Project_2_Test_2__c</fullName>
         <externalId>false</externalId>
-        <label>Project 1 Test 3</label>
-        <length>30</length>
+        <label>Project 2 Test 2</label>
+        <length>20</length>
         <required>false</required>
         <type>Text</type>
         <unique>false</unique>
