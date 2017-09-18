@@ -204,17 +204,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>PRJ2_Project_2_Test_2__c</fullName>
-        <externalId>false</externalId>
-        <label>Project 2 Test 2</label>
-        <length>20</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Picklist_Replacement__c</fullName>
         <externalId>false</externalId>
         <label>Picklist Replacement</label>
