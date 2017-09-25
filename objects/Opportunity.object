@@ -65,6 +65,27 @@
             <default>false</default>
         </values>
     </businessProcesses>
+    <businessProcesses>
+        <fullName>B2C</fullName>
+        <description>B2C</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposal%2FPrice Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecting</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -344,6 +365,12 @@
         <active>true</active>
         <businessProcess>B2B</businessProcess>
         <label>B2B</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>B2C</fullName>
+        <active>true</active>
+        <businessProcess>B2C</businessProcess>
+        <label>B2C</label>
     </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
