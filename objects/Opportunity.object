@@ -429,7 +429,15 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Project 1 Value 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Project 2 Value A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project 2 Value B</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
