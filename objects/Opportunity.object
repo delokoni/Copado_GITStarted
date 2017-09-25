@@ -204,6 +204,38 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PRJ2_Project_2_Test_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Project 2 Test 2</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Project 1 Value 1</fullName>
+                    <default>false</default>
+                    <label>Project 1 Value 1</label>
+                </value>
+                <value>
+                    <fullName>Project 1 Value 2</fullName>
+                    <default>false</default>
+                    <label>Project 1 Value 2</label>
+                </value>
+                <value>
+                    <fullName>Project 2 Value A</fullName>
+                    <default>false</default>
+                    <label>Project 2 Value A</label>
+                </value>
+                <value>
+                    <fullName>Project 2 Value B</fullName>
+                    <default>false</default>
+                    <label>Project 2 Value B</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>PRJ2_Project_2_Test_3__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -365,12 +397,42 @@
         <active>true</active>
         <businessProcess>B2B</businessProcess>
         <label>B2B</label>
+        <picklistValues>
+            <picklist>PRJ2_Project_2_Test_2__c</picklist>
+            <values>
+                <fullName>Project 1 Value 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project 1 Value 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project 2 Value A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project 2 Value B</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>B2C</fullName>
         <active>true</active>
         <businessProcess>B2C</businessProcess>
         <label>B2C</label>
+        <picklistValues>
+            <picklist>PRJ2_Project_2_Test_2__c</picklist>
+            <values>
+                <fullName>Project 1 Value 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project 2 Value A</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
