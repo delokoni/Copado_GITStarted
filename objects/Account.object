@@ -640,6 +640,13 @@
         <fullName>Jigsaw</fullName>
     </fields>
     <fields>
+        <fullName>Liberty_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Liberty Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>NaicsCode</fullName>
     </fields>
     <fields>
