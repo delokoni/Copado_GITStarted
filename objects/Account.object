@@ -79,7 +79,6 @@
         <externalId>false</externalId>
         <label>Active</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -594,6 +593,16 @@
         <required>false</required>
         <type>Text</type>
         <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Elisa_Info__c</fullName>
+        <description>missing information for user story to work</description>
+        <externalId>false</externalId>
+        <label>Elisa Info</label>
+        <length>155</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Elisa_Status__c</fullName>
