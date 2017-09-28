@@ -79,7 +79,6 @@
         <externalId>false</externalId>
         <label>Active</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -821,6 +820,13 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>User_Story_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>User Story 2</label>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>VIP_Customer__c</fullName>
