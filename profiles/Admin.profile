@@ -1192,6 +1192,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Elisa_Info__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Elisa_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -45,11 +45,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>User_Story_1__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>User_Story_2__c</field>
+                <field>Elisa_Info__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
