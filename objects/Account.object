@@ -595,6 +595,16 @@
         <unique>true</unique>
     </fields>
     <fields>
+        <fullName>Elisa_Info__c</fullName>
+        <description>missing information for user story to work</description>
+        <externalId>false</externalId>
+        <label>Elisa Info</label>
+        <length>155</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Elisa_Status__c</fullName>
         <externalId>false</externalId>
         <label>Elisa Status</label>
