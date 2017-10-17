@@ -117,6 +117,18 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Discount__c</fullName>
+        <description>Discount for this account</description>
+        <externalId>false</externalId>
+        <label>Discount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
         <fullName>ExpectedRevenue</fullName>
         <trackTrending>false</trackTrending>
     </fields>
