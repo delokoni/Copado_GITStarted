@@ -1,4 +1,8 @@
 @isTest
+/**
+Hello World, I have changed
+**/
+
 public class DummyClassTest {
     
     public static testmethod void testGetTest(){
