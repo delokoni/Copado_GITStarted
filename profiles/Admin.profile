@@ -74,8 +74,6 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-<<<<<<< HEAD
-=======
         <field>Account.AccountNumber</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -216,7 +214,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
->>>>>>> 237c4c1173b65612abfaabe9f015b5febc4eb22a
         <field>Account.PRJ2_IsProject2A__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -301,19 +298,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-<<<<<<< HEAD
-=======
-        <editable>true</editable>
-        <field>Account.User_Story_1__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.User_Story_2__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
->>>>>>> 237c4c1173b65612abfaabe9f015b5febc4eb22a
         <editable>false</editable>
         <field>Account.VIP_Customer__c</field>
         <readable>false</readable>
@@ -700,14 +684,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-<<<<<<< HEAD
-=======
-        <field>Contact.StopDeployment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
->>>>>>> 237c4c1173b65612abfaabe9f015b5febc4eb22a
         <field>Contact.Title</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1038,24 +1014,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-<<<<<<< HEAD
-        <field>Opportunity.PRJ1_Project_1_Test_2__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.PRJ1_Project_1_Test_3__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.PRJ2_Project_2_Test_2__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-=======
->>>>>>> 237c4c1173b65612abfaabe9f015b5febc4eb22a
         <field>Opportunity.Picklist_Replacement__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2061,13 +2019,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-<<<<<<< HEAD
-=======
-        <name>ResetPasswords</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
->>>>>>> 237c4c1173b65612abfaabe9f015b5febc4eb22a
         <name>RunReports</name>
     </userPermissions>
     <userPermissions>
