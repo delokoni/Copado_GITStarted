@@ -274,11 +274,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Account.SuccessfulTest__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Account.TestPermission__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1077,6 +1072,7 @@
         <field>OpportunityLineItem.ProductCode</field>
         <readable>true</readable>
     </fieldPermissions>
+    <!--- comment thie --->
     <fieldPermissions>
         <editable>true</editable>
         <field>OpportunityLineItem.ServiceDate</field>
