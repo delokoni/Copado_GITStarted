@@ -113,6 +113,50 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Clients__c</fullName>
+        <externalId>false</externalId>
+        <label>Clients</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Mordor &amp; Sons</fullName>
+                    <default>false</default>
+                    <label>Mordor &amp; Sons</label>
+                </value>
+                <value>
+                    <fullName>Legola&apos;s Bow Factory</fullName>
+                    <default>false</default>
+                    <label>Legola&apos;s Bow Factory</label>
+                </value>
+                <value>
+                    <fullName>Gimli´s Axe Shop</fullName>
+                    <default>false</default>
+                    <label>Gimli´s Axe Shop</label>
+                </value>
+                <value>
+                    <fullName>Frodo – Professional Ringbearer</fullName>
+                    <default>false</default>
+                    <label>Frodo – Professional Ringbearer</label>
+                </value>
+                <value>
+                    <fullName>Sam - Ringbearer Assistance</fullName>
+                    <default>false</default>
+                    <label>Sam - Ringbearer Assistance</label>
+                </value>
+                <value>
+                    <fullName>Sauron / Saruman Special Cuisine</fullName>
+                    <default>false</default>
+                    <label>Sauron / Saruman Special Cuisine</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Department</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -283,6 +327,46 @@
         </filters>
         <label>New This Week</label>
     </listViews>
+    <recordTypes>
+        <fullName>Eastern_World</fullName>
+        <active>true</active>
+        <label>Eastern World</label>
+        <picklistValues>
+            <picklist>Clients__c</picklist>
+            <values>
+                <fullName>Mordor %26 Sons</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Sauron %2F Saruman Special Cuisine</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Western_World</fullName>
+        <active>true</active>
+        <label>Western World</label>
+        <picklistValues>
+            <picklist>Clients__c</picklist>
+            <values>
+                <fullName>Frodo %E2%80%93 Professional Ringbearer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gimli%C2%B4s Axe Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legola%27s Bow Factory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sam - Ringbearer Assistance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
