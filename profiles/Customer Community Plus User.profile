@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>AccountOperations</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountOperationsTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DummyClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DummyClassTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>WKDY_AccountService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>WKDY_AccountServiceTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>testController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
+    <pageAccesses>
+        <apexPage>testPage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <userLicense>Customer Community Plus</userLicense>
     <userPermissions>
         <enabled>true</enabled>
