@@ -42,6 +42,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Clients__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>StopDeployment__c</field>
             </layoutItems>
         </layoutColumns>
