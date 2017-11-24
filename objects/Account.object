@@ -706,6 +706,13 @@
         <fullName>Site</fullName>
     </fields>
     <fields>
+        <fullName>SuccessfulTest__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SuccessfulTest</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>TestPermission__c</fullName>
         <externalId>false</externalId>
         <label>TestPermission</label>
