@@ -635,6 +635,34 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>PRJ1_IsProject1A__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Project 1 A</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PRJ1_IsProject1B__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Project 1 B</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PRJ2_IsProject2A__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Project 2 A</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PRJ2_IsProject2B__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Project 2 B</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>ParentId</fullName>
         <type>Hierarchy</type>
     </fields>
@@ -750,6 +778,13 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>User_Story_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>User Story 2</label>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>VIP_Customer__c</fullName>
