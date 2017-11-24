@@ -97,20 +97,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>AdminOnlyDev1__c</fullName>
-        <defaultValue>true</defaultValue>
-        <externalId>false</externalId>
-        <label>AdminOnlyDev1</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>AdminOnlyDev2__c</fullName>
-        <defaultValue>true</defaultValue>
-        <externalId>false</externalId>
-        <label>AdminOnlyDev2</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>AnnualRevenue</fullName>
     </fields>
     <fields>
@@ -595,34 +581,6 @@
         <unique>true</unique>
     </fields>
     <fields>
-        <fullName>Elisa_Status__c</fullName>
-        <externalId>false</externalId>
-        <label>Elisa Status</label>
-        <required>false</required>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>New</fullName>
-                    <default>false</default>
-                    <label>New</label>
-                </value>
-                <value>
-                    <fullName>Prospect</fullName>
-                    <default>false</default>
-                    <label>Prospect</label>
-                </value>
-                <value>
-                    <fullName>Great Customer</fullName>
-                    <default>false</default>
-                    <label>Great Customer</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Fax</fullName>
     </fields>
     <fields>
@@ -675,34 +633,6 @@
     <fields>
         <fullName>Ownership</fullName>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>PRJ1_IsProject1A__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Is Project 1 A</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>PRJ1_IsProject1B__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Is Project 1 B</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>PRJ2_IsProject2A__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Is Project 2 A</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>PRJ2_IsProject2B__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Is Project 2 B</label>
-        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>ParentId</fullName>
@@ -820,13 +750,6 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
-    </fields>
-    <fields>
-        <fullName>User_Story_2__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>User Story 2</label>
-        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>VIP_Customer__c</fullName>
