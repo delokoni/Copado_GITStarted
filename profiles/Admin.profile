@@ -2,7 +2,7 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>Force_com</application>
-        <default>true</default>
+        <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
@@ -47,7 +47,7 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Sales</application>
-        <default>false</default>
+        <default>true</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
@@ -1532,10 +1532,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-home</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-report</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -1738,10 +1734,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ListEmailSend</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageAnalyticSnapshots</name>
     </userPermissions>
     <userPermissions>
@@ -1787,6 +1779,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageCustomReportTypes</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageDashboards</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1910,10 +1906,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>Packaging2</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>PublishPackaging</name>
     </userPermissions>
     <userPermissions>
@@ -1974,19 +1966,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>UseWebLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ViewAllData</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewAllUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewDataAssessment</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

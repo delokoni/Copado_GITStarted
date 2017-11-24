@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <emailDefault>false</emailDefault>
-    <headers>PersonalTagging</headers>
-    <headers>PublicTagging</headers>
+    <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
@@ -32,6 +30,18 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>LeadSource</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>OPP_EUID__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>OPP_Test_Permission__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Picklist_Replacement__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -142,6 +152,7 @@
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
+        <label>Custom Links</label>
         <layoutColumns>
             <layoutItems>
                 <customLink>DeliveryStatus</customLink>
@@ -216,10 +227,15 @@
         <relatedList>RelatedOpportunityHistoryList</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
-    <runAssignmentRulesDefault>false</runAssignmentRulesDefault>
-    <showEmailCheckbox>true</showEmailCheckbox>
-    <showHighlightsPanel>true</showHighlightsPanel>
-    <showInteractionLogPanel>true</showInteractionLogPanel>
-    <showRunAssignmentRulesCheckbox>true</showRunAssignmentRulesCheckbox>
+    <showEmailCheckbox>false</showEmailCheckbox>
+    <showHighlightsPanel>false</showHighlightsPanel>
+    <showInteractionLogPanel>false</showInteractionLogPanel>
+    <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00h0Y000004U2ic</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
 </Layout>
