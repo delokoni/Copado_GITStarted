@@ -17,10 +17,23 @@ installedPackages/*
 #It is recommended that you ignore managed components that cannot be modified
 #since there is no need to track them in Git, like for example:
 
+applications/copado__*
 classes/copado__*
+customPermissions/copado__*
+dashboards/copado__*
+email/copado__*
 triggers/copado__*
 pages/copado__*
 workflows/copado__*
+objects/copado__*
+objectTranslations/copado__*
+layouts/copado__*
+reports/copado__*
+reportTypes/copado__*
+sharingRules/copado__*
+staticresources/copado__*
+permissionsets/copado__*
+tabs/copado__*
 
 #profiles and permission sets are complex Files. If your Org's metadata and Git are in sync,
 #you can track incremental changes on Profiles and Permission sets using Copado "commit files" functionality.
