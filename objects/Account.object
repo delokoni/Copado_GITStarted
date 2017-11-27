@@ -657,6 +657,13 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Likes_Seth_Meyers__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Likes Seth Meyers</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>NaicsCode</fullName>
     </fields>
     <fields>
