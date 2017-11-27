@@ -153,6 +153,29 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>OPP_EUID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>OPP_EUID</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>OPP_Test_Permission__c</fullName>
+        <externalId>false</externalId>
+        <label>OPP Test Permission</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>OrderNumber__c</fullName>
         <externalId>false</externalId>
         <label>Order Number</label>
@@ -168,6 +191,36 @@
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Picklist_Replacement__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist Replacement</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Closed %E2%80%93 Admin</fullName>
+                    <default>false</default>
+                    <label>Closed %E2%80%93 Admin</label>
+                </value>
+                <value>
+                    <fullName>Some - more - values</fullName>
+                    <default>false</default>
+                    <label>Some - more - values</label>
+                </value>
+                <value>
+                    <fullName>Dev + Admin</fullName>
+                    <default>false</default>
+                    <label>Dev + Admin</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Pricebook2Id</fullName>

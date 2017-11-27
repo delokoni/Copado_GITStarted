@@ -69,11 +69,9 @@
     <enableHistory>false</enableHistory>
     <fields>
         <fullName>AccountNumber</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>AccountSource</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -81,7 +79,6 @@
         <externalId>false</externalId>
         <label>Active</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -100,19 +97,158 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>AdminOnlyDev1__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>AdminOnlyDev1</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AdminOnlyDev2__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>AdminOnlyDev2</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>AnnualRevenue</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>BillingAddress</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Controlling_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Controlling Field</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Value 1</fullName>
+                    <default>false</default>
+                    <label>Value 1</label>
+                </value>
+                <value>
+                    <fullName>Value 2</fullName>
+                    <default>false</default>
+                    <label>Value 2</label>
+                </value>
+                <value>
+                    <fullName>Value 3</fullName>
+                    <default>false</default>
+                    <label>Value 3</label>
+                </value>
+                <value>
+                    <fullName>Value 4</fullName>
+                    <default>false</default>
+                    <label>Value 4</label>
+                </value>
+                <value>
+                    <fullName>Value (</fullName>
+                    <default>false</default>
+                    <label>Value (</label>
+                </value>
+                <value>
+                    <fullName>Valuie )</fullName>
+                    <default>false</default>
+                    <label>Valuie )</label>
+                </value>
+                <value>
+                    <fullName>Value -</fullName>
+                    <default>false</default>
+                    <label>Value -</label>
+                </value>
+                <value>
+                    <fullName>Value _</fullName>
+                    <default>false</default>
+                    <label>Value _</label>
+                </value>
+                <value>
+                    <fullName>Value /</fullName>
+                    <default>false</default>
+                    <label>Value /</label>
+                </value>
+                <value>
+                    <fullName>Value ,</fullName>
+                    <default>false</default>
+                    <label>Value ,</label>
+                </value>
+                <value>
+                    <fullName>Value .</fullName>
+                    <default>false</default>
+                    <label>Value .</label>
+                </value>
+                <value>
+                    <fullName>Value ;</fullName>
+                    <default>false</default>
+                    <label>Value ;</label>
+                </value>
+                <value>
+                    <fullName>Value :</fullName>
+                    <default>false</default>
+                    <label>Value :</label>
+                </value>
+                <value>
+                    <fullName>Value &quot;</fullName>
+                    <default>false</default>
+                    <label>Value &quot;</label>
+                </value>
+                <value>
+                    <fullName>Value *</fullName>
+                    <default>false</default>
+                    <label>Value *</label>
+                </value>
+                <value>
+                    <fullName>Value +</fullName>
+                    <default>false</default>
+                    <label>Value +</label>
+                </value>
+                <value>
+                    <fullName>Value ô</fullName>
+                    <default>false</default>
+                    <label>Value ô</label>
+                </value>
+                <value>
+                    <fullName>Value ç</fullName>
+                    <default>false</default>
+                    <label>Value ç</label>
+                </value>
+                <value>
+                    <fullName>Value ü</fullName>
+                    <default>false</default>
+                    <label>Value ü</label>
+                </value>
+                <value>
+                    <fullName>Value @</fullName>
+                    <default>false</default>
+                    <label>Value @</label>
+                </value>
+                <value>
+                    <fullName>Value á</fullName>
+                    <default>false</default>
+                    <label>Value á</label>
+                </value>
+                <value>
+                    <fullName>Value à</fullName>
+                    <default>false</default>
+                    <label>Value à</label>
+                </value>
+                <value>
+                    <fullName>value ñ</fullName>
+                    <default>false</default>
+                    <label>value ñ</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>CustomerPriority__c</fullName>
         <externalId>false</externalId>
         <label>Customer Priority</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -137,45 +273,400 @@
     </fields>
     <fields>
         <fullName>DandbCompanyId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Depending_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Depending Field</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Controlling_Field__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>D11</fullName>
+                    <default>false</default>
+                    <label>D11</label>
+                </value>
+                <value>
+                    <fullName>D12</fullName>
+                    <default>false</default>
+                    <label>D12</label>
+                </value>
+                <value>
+                    <fullName>D13</fullName>
+                    <default>false</default>
+                    <label>D13</label>
+                </value>
+                <value>
+                    <fullName>D21</fullName>
+                    <default>false</default>
+                    <label>D21</label>
+                </value>
+                <value>
+                    <fullName>D22</fullName>
+                    <default>false</default>
+                    <label>D22</label>
+                </value>
+                <value>
+                    <fullName>D23</fullName>
+                    <default>false</default>
+                    <label>D23</label>
+                </value>
+                <value>
+                    <fullName>D31</fullName>
+                    <default>false</default>
+                    <label>D31</label>
+                </value>
+                <value>
+                    <fullName>D32</fullName>
+                    <default>false</default>
+                    <label>D32</label>
+                </value>
+                <value>
+                    <fullName>D33</fullName>
+                    <default>false</default>
+                    <label>D33</label>
+                </value>
+                <value>
+                    <fullName>D41</fullName>
+                    <default>false</default>
+                    <label>D41</label>
+                </value>
+                <value>
+                    <fullName>D42</fullName>
+                    <default>false</default>
+                    <label>D42</label>
+                </value>
+                <value>
+                    <fullName>D43</fullName>
+                    <default>false</default>
+                    <label>D43</label>
+                </value>
+                <value>
+                    <fullName>D51</fullName>
+                    <default>false</default>
+                    <label>D51</label>
+                </value>
+                <value>
+                    <fullName>Value (</fullName>
+                    <default>false</default>
+                    <label>Value (</label>
+                </value>
+                <value>
+                    <fullName>Valuie )</fullName>
+                    <default>false</default>
+                    <label>Valuie )</label>
+                </value>
+                <value>
+                    <fullName>Value -</fullName>
+                    <default>false</default>
+                    <label>Value -</label>
+                </value>
+                <value>
+                    <fullName>Value _</fullName>
+                    <default>false</default>
+                    <label>Value _</label>
+                </value>
+                <value>
+                    <fullName>Value /</fullName>
+                    <default>false</default>
+                    <label>Value /</label>
+                </value>
+                <value>
+                    <fullName>Value ,</fullName>
+                    <default>false</default>
+                    <label>Value ,</label>
+                </value>
+                <value>
+                    <fullName>Value .</fullName>
+                    <default>false</default>
+                    <label>Value .</label>
+                </value>
+                <value>
+                    <fullName>Value ;</fullName>
+                    <default>false</default>
+                    <label>Value ;</label>
+                </value>
+                <value>
+                    <fullName>Value :</fullName>
+                    <default>false</default>
+                    <label>Value :</label>
+                </value>
+                <value>
+                    <fullName>Value &quot;</fullName>
+                    <default>false</default>
+                    <label>Value &quot;</label>
+                </value>
+                <value>
+                    <fullName>Value *</fullName>
+                    <default>false</default>
+                    <label>Value *</label>
+                </value>
+                <value>
+                    <fullName>Value +</fullName>
+                    <default>false</default>
+                    <label>Value +</label>
+                </value>
+                <value>
+                    <fullName>Value ô</fullName>
+                    <default>false</default>
+                    <label>Value ô</label>
+                </value>
+                <value>
+                    <fullName>Value ç</fullName>
+                    <default>false</default>
+                    <label>Value ç</label>
+                </value>
+                <value>
+                    <fullName>Value ü</fullName>
+                    <default>false</default>
+                    <label>Value ü</label>
+                </value>
+                <value>
+                    <fullName>Value @</fullName>
+                    <default>false</default>
+                    <label>Value @</label>
+                </value>
+                <value>
+                    <fullName>Value á</fullName>
+                    <default>false</default>
+                    <label>Value á</label>
+                </value>
+                <value>
+                    <fullName>Value à</fullName>
+                    <default>false</default>
+                    <label>Value à</label>
+                </value>
+                <value>
+                    <fullName>value ñ</fullName>
+                    <default>false</default>
+                    <label>value ñ</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Value .</controllingFieldValue>
+                <valueName>Value .</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value à</controllingFieldValue>
+                <valueName>Value à</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value ;</controllingFieldValue>
+                <valueName>Value ;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>value ñ</controllingFieldValue>
+                <valueName>value ñ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value :</controllingFieldValue>
+                <valueName>Value :</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value &quot;</controllingFieldValue>
+                <valueName>Value &quot;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value *</controllingFieldValue>
+                <valueName>Value *</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value +</controllingFieldValue>
+                <valueName>Value +</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value ô</controllingFieldValue>
+                <valueName>Value ô</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value ç</controllingFieldValue>
+                <valueName>Value ç</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value ü</controllingFieldValue>
+                <valueName>Value ü</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 1</controllingFieldValue>
+                <valueName>D11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 1</controllingFieldValue>
+                <valueName>D12</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 1</controllingFieldValue>
+                <valueName>D13</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 1</controllingFieldValue>
+                <controllingFieldValue>Value 2</controllingFieldValue>
+                <valueName>D21</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 1</controllingFieldValue>
+                <valueName>D22</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 1</controllingFieldValue>
+                <valueName>D23</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 2</controllingFieldValue>
+                <valueName>D51</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 3</controllingFieldValue>
+                <valueName>D31</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 3</controllingFieldValue>
+                <valueName>D32</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 3</controllingFieldValue>
+                <valueName>D33</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 4</controllingFieldValue>
+                <valueName>D41</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 4</controllingFieldValue>
+                <valueName>D42</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value 4</controllingFieldValue>
+                <valueName>D43</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value (</controllingFieldValue>
+                <valueName>Value (</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Valuie )</controllingFieldValue>
+                <valueName>Valuie )</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value -</controllingFieldValue>
+                <valueName>Value -</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value _</controllingFieldValue>
+                <valueName>Value _</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value /</controllingFieldValue>
+                <valueName>Value /</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value @</controllingFieldValue>
+                <valueName>Value @</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value ,</controllingFieldValue>
+                <valueName>Value ,</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value á</controllingFieldValue>
+                <valueName>Value á</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>DunsNumber</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>EUID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>EUID</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Elisa_Info__c</fullName>
+        <description>missing information for user story to work</description>
+        <externalId>false</externalId>
+        <label>Elisa Info</label>
+        <length>155</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Elisa_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Elisa Status</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Prospect</fullName>
+                    <default>false</default>
+                    <label>Prospect</label>
+                </value>
+                <value>
+                    <fullName>Great Customer</fullName>
+                    <default>false</default>
+                    <label>Great Customer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Fax</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Industry</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Is_Deployed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Deployed</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Jigsaw</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Liberty_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Liberty Active</label>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>NaicsCode</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>NaicsDesc</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
         <fullName>NumberOfEmployees</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>NumberofLocations__c</fullName>
@@ -184,32 +675,54 @@
         <precision>3</precision>
         <required>false</required>
         <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Number</type>
         <unique>false</unique>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Ownership</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>PRJ1_IsProject1A__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Project 1 A</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PRJ1_IsProject1B__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Project 1 B</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PRJ2_IsProject2A__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Project 2 A</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PRJ2_IsProject2B__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Project 2 B</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>ParentId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Hierarchy</type>
     </fields>
     <fields>
         <fullName>Phone</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Rating</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -217,7 +730,6 @@
         <externalId>false</externalId>
         <label>SLA Expiration Date</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Date</type>
     </fields>
     <fields>
@@ -226,7 +738,6 @@
         <label>SLA Serial Number</label>
         <length>10</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -235,7 +746,6 @@
         <externalId>false</externalId>
         <label>SLA</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -265,31 +775,33 @@
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Sic</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>SicDesc</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Site</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TestPermission__c</fullName>
+        <externalId>false</externalId>
+        <label>TestPermission</label>
+        <length>39</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>TickerSymbol</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Tradestyle</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Type</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -297,7 +809,6 @@
         <externalId>false</externalId>
         <label>Upsell Opportunity</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -321,12 +832,31 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>User_Story_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>User Story 1</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>User_Story_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>User Story 2</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VIP_Customer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>VIP Customer</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Website</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>YearStarted</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
