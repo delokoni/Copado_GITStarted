@@ -45,30 +45,20 @@
     <enableHistory>false</enableHistory>
     <fields>
         <fullName>AccountId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Amount</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>CampaignId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>CloseDate</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>ContractId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -77,8 +67,6 @@
         <label>Current Generator(s)</label>
         <length>100</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -87,8 +75,6 @@
         <externalId>false</externalId>
         <label>Delivery/Installation Status</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -113,23 +99,38 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>Discount__c</fullName>
+        <description>Discount for this account</description>
+        <externalId>false</externalId>
+        <label>Discount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
+        <type>Percent</type>
     </fields>
     <fields>
         <fullName>ExpectedRevenue</fullName>
-        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>IsPrivate</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>LeadSource</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Lighthouse__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>This opportunity is most probably a lighthouse, which we can use for promotion later on.</inlineHelpText>
+        <label>Lighthouse</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
-        <type>Picklist</type>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>MainCompetitors__c</fullName>
@@ -137,20 +138,33 @@
         <label>Main Competitor(s)</label>
         <length>100</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
         <fullName>Name</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>NextStep</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>OPP_EUID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>OPP_EUID</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>OPP_Test_Permission__c</fullName>
+        <externalId>false</externalId>
+        <label>OPP Test Permission</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>OrderNumber__c</fullName>
@@ -158,37 +172,54 @@
         <label>Order Number</label>
         <length>8</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Picklist_Replacement__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist Replacement</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Closed %E2%80%93 Admin</fullName>
+                    <default>false</default>
+                    <label>Closed %E2%80%93 Admin</label>
+                </value>
+                <value>
+                    <fullName>Some - more - values</fullName>
+                    <default>false</default>
+                    <label>Some - more - values</label>
+                </value>
+                <value>
+                    <fullName>Dev + Admin</fullName>
+                    <default>false</default>
+                    <label>Dev + Admin</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Pricebook2Id</fullName>
-        <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Probability</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>StageName</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>TotalOpportunityQuantity</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>TrackingNumber__c</fullName>
@@ -196,15 +227,11 @@
         <label>Tracking Number</label>
         <length>12</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
         <fullName>Type</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
     <listViews>

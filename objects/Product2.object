@@ -77,6 +77,14 @@
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
+    <fields>
+        <fullName>VIP_Product__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>VIP Product</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
     <listViews>
         <fullName>AllProducts</fullName>
         <filterScope>Everything</filterScope>

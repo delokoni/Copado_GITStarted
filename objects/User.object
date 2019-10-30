@@ -65,6 +65,14 @@
         <type>Hierarchy</type>
     </fields>
     <fields>
+        <fullName>StopDeployment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>StopDeployment</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>copado__API_URL__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
